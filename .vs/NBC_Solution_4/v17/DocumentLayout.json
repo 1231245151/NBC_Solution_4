@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\AlchemyWorkshop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|solutionrelative:NBC_Solution_4\\AlchemyWorkshop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\PotionRecipe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|solutionrelative:NBC_Solution_4\\PotionRecipe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\StockManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|solutionrelative:NBC_Solution_4\\StockManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -19,8 +11,23 @@
       "RelativeMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|solutionrelative:NBC_Solution_4\\RecipeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\AlchemyWorkshop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|solutionrelative:NBC_Solution_4\\AlchemyWorkshop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\AlchemyWorkshop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|solutionrelative:NBC_Solution_4\\AlchemyWorkshop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|solutionrelative:NBC_Solution_4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\PotionRecipe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0706324-BCA1-4505-80DE-63C2997CC538}|NBC_Solution_4\\NBC_Solution_4.vcxproj|solutionrelative:NBC_Solution_4\\PotionRecipe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\VisualStudio\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,39 +45,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "xstring",
+              "DocumentMoniker": "E:\\VisualStudio\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
+              "ToolTip": "E:\\VisualStudio\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
+              "ViewState": "AgIAAF0DAAAAAAAAAAAWwHEDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-11T11:24:00.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlchemyWorkshop.cpp",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\AlchemyWorkshop.cpp",
+              "RelativeDocumentMoniker": "NBC_Solution_4\\AlchemyWorkshop.cpp",
+              "ToolTip": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\AlchemyWorkshop.cpp",
+              "RelativeToolTip": "NBC_Solution_4\\AlchemyWorkshop.cpp",
+              "ViewState": "AgIAAJEAAAAAAAAAAADwv7oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-11T10:31:38.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RecipeManager.h",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\RecipeManager.h",
               "RelativeDocumentMoniker": "NBC_Solution_4\\RecipeManager.h",
               "ToolTip": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\RecipeManager.h",
               "RelativeToolTip": "NBC_Solution_4\\RecipeManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwv1cAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-11T07:31:19.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PotionRecipe.h",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\PotionRecipe.h",
               "RelativeDocumentMoniker": "NBC_Solution_4\\PotionRecipe.h",
               "ToolTip": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\PotionRecipe.h",
               "RelativeToolTip": "NBC_Solution_4\\PotionRecipe.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxEAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-11T07:30:56.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T07:30:56.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AlchemyWorkshop.h",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\AlchemyWorkshop.h",
               "RelativeDocumentMoniker": "NBC_Solution_4\\AlchemyWorkshop.h",
               "ToolTip": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\AlchemyWorkshop.h",
               "RelativeToolTip": "NBC_Solution_4\\AlchemyWorkshop.h",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAF8AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvzkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-11T07:30:36.182Z",
               "EditorCaption": ""
@@ -83,20 +112,19 @@
               "RelativeDocumentMoniker": "NBC_Solution_4\\main.cpp",
               "ToolTip": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\main.cpp",
               "RelativeToolTip": "NBC_Solution_4\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-11T07:30:09.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T07:30:09.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "StockManager.h",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\StockManager.h",
               "RelativeDocumentMoniker": "NBC_Solution_4\\StockManager.h",
               "ToolTip": "C:\\Users\\1\\Desktop\\C\u002B\u002B\\NBC_Solution_4\\NBC_Solution_4\\StockManager.h",
               "RelativeToolTip": "NBC_Solution_4\\StockManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwv0YAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-11T07:31:35.28Z",
               "EditorCaption": ""

@@ -19,78 +19,40 @@ private:
 
 public:
     // addRecipe 메서드: 재료 목록(vector)을 매개변수로 받도록 수정
-    void addRecipe(const string& name, const vector<string>& ingredients)
-    {
-        bool overlap = recipeManager_.AddRecipe(name, ingredients);
-        // 중복된 레시피등록 시 판정
-        if (overlap)
-        {
-            cout << ">> 중복된 레시피입니다. '" << name << "'이(가) 기존 레시피에서 덮어씁니다." << endl;
-        }
-        else
-        {
-            cout << ">> 새로운 레시피 '" << name << "'이(가) 추가되었습니다." << endl;
-        }
-    }
-
+    void addRecipe(const string& name, const vector<string>& ingredients);
     // 모든 레시피 출력 메서드
-    void displayAllRecipes() const
-    {
-        const vector<PotionRecipe>& recipes = recipeManager_.GetAllRecipe();
-
-        if (recipes.empty())
-        {
-            cout << "아직 등록된 레시피가 없습니다." << endl;
-            return;
-        }
-
-        cout << "\n--- [ 전체 레시피 목록 ] ---" << endl;
-        for (size_t i = 0; i < recipes.size(); ++i)
-        {
-            recipes[i].displayRecipe();
-        }
-        cout << "---------------------------\n";
-    }
+    void displayAllRecipes() const;
 
     // 포션 이름 검색
-    PotionRecipe SearchCopyRecipeByName(string _name)
+    PotionRecipe SearchCopyRecipeByName(string _name);
+    // 포션 재료 검색. 없다면 빈 벡터보냄
+    vector<PotionRecipe> SearchCopyRecipeByingred(string _name);
+
+    // 이름으로 해당 포션 재고 감소. 감소되면 true, 안되면 false 
+    bool DispensePotionByName(const string& _name);
+    // 재료이름으로 포션들 재고 감소. 없으면 빈 vector반환
+    vector<PotionRecipe> DispensePotionByingred(const string& _name);
+    // 이름으로 해당 포션 반환. 정상적으로 반환되면 true, 안되었다면 false
+    bool ReturnPotionByName(const string& _name);
+
+private:
+    // 분리해봣는데 인터페이스 분리법칙에 위배인가싶어...
+    void displayRecipe(PotionRecipe _recipe) const
     {
-        PotionRecipe* SearchRecipe = recipeManager_.FindRecipeByName(_name);
 
-        if (SearchRecipe == nullptr)
+        cout << "- 물약 이름: " << _recipe.GetName() << endl;
+        cout << "  > 필요 재료: ";
+
+        // 재료 목록을 순회하며 출력
+        for (size_t j = 0; j < _recipe.Getingredients().size(); ++j)
         {
-            cout << "해당 레시피는 존재하지 않습니다." << endl;
-
-            // 더미 데이터 반환
-            return PotionRecipe();
+            cout << _recipe.Getingredients()[j];
+            // 마지막 재료가 아니면 쉼표로 구분
+            if (j < _recipe.Getingredients().size() - 1)
+            {
+                cout << ", ";
+            }
         }
-
-        SearchRecipe->displayRecipe();
-
-        //레시피가 발견되었다면 해당 레시피 반환
-        return *SearchRecipe;
+        cout << endl;
     }
-
-
-    // 포션 재료 검색
-    vector<PotionRecipe> SearchCopyRecipeByingred(string _name)
-    {
-        // 현재 제작중
-        vector<PotionRecipe> SearchRecipes = recipeManager_.FindRecipeByingredients(_name);
-
-        if (SearchRecipes.empty())
-        {
-            cout << "해당 레시피는 존재하지 않습니다." << endl;
-
-            return SearchRecipes;
-        }
-
-        for (PotionRecipe pr : SearchRecipes)
-        {
-            pr.displayRecipe();
-        }
-
-        return SearchRecipes;
-    }
-
 };

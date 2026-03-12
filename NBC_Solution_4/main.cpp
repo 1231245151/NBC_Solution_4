@@ -15,12 +15,17 @@ int main()
 
     while (true)
     {
+        cout << "============================" << endl;
         cout << "연금술 공방 관리 시스템" << endl;
         cout << "1. 레시피 추가" << endl;
         cout << "2. 모든 레시피 출력" << endl;
         cout << "3. 레시피 검색(이름)" << endl;
         cout << "4. 레시피 목록 검색(재료)" << endl;
-        cout << "5. 종료" << endl;
+        cout << "5. 포션 주기(이름)" << endl;
+        cout << "6. 포션들 주기(재료)" << endl;
+        cout << "7. 포션 재고 채우기" << endl;
+        cout << "8. 종료" << endl;
+        cout << "============================" << endl;
         cout << "선택: ";
 
         int choice;
@@ -93,6 +98,32 @@ int main()
 
         }
         else if (choice == 5)
+        {
+            string name;
+            cout << "모험가에게 건네줄 포션을 입력하세요: ";
+            cin.ignore(10000, '\n');
+            getline(cin, name);
+            myWorkshop.DispensePotionByName(name);
+        }
+        else if (choice == 6)
+        {
+            string name;
+            cout << "모험가에게 건네줄 포션들에 포함된 재료의 이름을 입력하세요: ";
+            cin.ignore(10000, '\n');
+            getline(cin, name);
+            myWorkshop.DispensePotionByingred(name);
+
+        }
+        else if (choice == 7)
+        {
+            string name;
+            cout << "돌려받을 포션의 이름을 입력하세요: ";
+            cin.ignore(10000, '\n');
+            getline(cin, name);
+            myWorkshop.ReturnPotionByName(name);
+
+        }
+        else if (choice == 8)
         {
             cout << "공방 문을 닫습니다..." << endl;
             break;
